@@ -1,0 +1,7 @@
+<app-heading></app-heading>
+<div class="flex flex-row flex-wrap gap-3 p-3">
+  <div *ngFor="let plan of this.calendarPlanData">
+    <app-calendar-plan></app-calendar-plan>
+  </div>
+  <app-add-calendar-plan></app-add-calendar-plan>
+</div>

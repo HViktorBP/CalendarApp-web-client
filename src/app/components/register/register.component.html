@@ -1,0 +1,28 @@
+<div class="container flex flex-column justify-content-center">
+  <div class="flex flex-column gap-3">
+    <h1 class="text-center m-0">Calendarik</h1>
+    <form class="flex flex-column gap-3 align-items-center">
+      <div class="flex flex-column gap-2">
+        <label for="username">Username</label>
+        <input type="text" name="username" id="username" placeholder="Username" class="w-20rem">
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="password">Password</label>
+        <input type="text" name="password" id="password" placeholder="********" class="w-20rem">
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="repeat-password">Repeat the password</label>
+        <input type="text" name="repeat-password" id="repeat-password" placeholder="********" class="w-20rem">
+      </div>
+      <div class="flex flex-column gap-2">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" placeholder="test@gmail.com" class="w-20rem">
+      </div>
+      <button>Register</button>
+    </form>
+    <hr class="w-20rem">
+    <div class="flex flex-column align-items-center gap-3">
+      <b>Already have an account? <span class="underline cursor-pointer" [routerLink]="['/login']">Log in</span></b>
+    </div>
+  </div>
+</div>
